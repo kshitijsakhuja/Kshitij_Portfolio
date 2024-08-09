@@ -679,3 +679,64 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+/* experience section styling */
+.experience .title::after {
+    content: "where i've worked";
+}
+.experience .experience-content .box {
+    background: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.experience .experience-content .box:hover {
+    background: crimson;
+    color: #fff;
+}
+.experience .experience-content .text {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.experience .experience-content p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* projects section styling */
+.projects .title::after {
+    content: "what i've built";
+}
+.projects .projects-content .box {
+    background: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.projects .projects-content .box:hover {
+    background: crimson;
+    color: #fff;
+}
+.projects .projects-content .text {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projects .projects-content p {
+    text-align: justify;
+    font-size: 16px;
+}
+.projects .projects-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: crimson;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.projects .projects-content a:hover {
+    color: #fff;
+}
